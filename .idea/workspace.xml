@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eec46443-48db-4d3e-9f33-74c2d9156976" name="Changes" comment="Collection api → represents a set of objects and methods that allows us to search, manipulate and store data.&#10;&#10;- Iterable is parents interface of a Collection class.&#10;- Mean Collection extends to Iterable class.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/list-and-concrete-class.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/list-set-queue-descendents-of-collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/queue/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/set/Set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/set/SetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/code/with/vanilson/collection/CollectionApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/CollectionApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/lists/ListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/set/SetDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/code/with/vanilson/collection/CollectionApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/java-collection-2024.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collection/code/with/vanilson/collection/CollectApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/CollectApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-collection/code/with/vanilson/collection/CollectionApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/java-collection/code/with/vanilson/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="docs/collection-api-diagrams" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2keOZveuV2RnSiPwbr6RakAKpRP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollectionApi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.code.with.vanilson.collection.CollectionApi.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testApp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CollectionApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CollectionApiTest.testAddElement.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CollectionApiTest.testGetCollectionWithNullInput.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.java-collection-2024 [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;docs/list-set-queue-diagrams&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vamuhong/Documents/Formation 2023/Spring boot/Java and Backend Map/Java-2024/java-collection-2024/src/test/java/code/with/vanilson/collection/CollectionApiTest.java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.18587105&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41811848&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024\src\main\java\code\with\vanilson\collection\diagrams" />
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024\src\main\java\code\with\vanilson\collection\diagrams\collection" />
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QueueDemo">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="7077349b-88cf-4ecd-9328-25eb62bdbd57" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.lists.ListDemo" />
+      <module name="java-collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.collection.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.queue.QueueDemo" />
+      <module name="java-collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.collection.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.set.SetDemo" />
+      <module name="java-collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionApiTest.testAddElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code.with.vanilson.collection" />
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.CollectionApiTest" />
+      <option name="METHOD_NAME" value="testAddElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionApiTest.testGetCollectionWithNullInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-collection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code.with.vanilson.collection" />
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.CollectionApiTest" />
+      <option name="METHOD_NAME" value="testGetCollectionWithNullInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QueueDemo" />
+        <item itemvalue="Application.SetDemo" />
+        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="JUnit.CollectionApiTest.testGetCollectionWithNullInput" />
+        <item itemvalue="JUnit.CollectionApiTest.testAddElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eec46443-48db-4d3e-9f33-74c2d9156976" name="Changes" comment="" />
+      <created>1723640634449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723640634449</updated>
+      <workItem from="1723640635921" duration="6991000" />
+      <workItem from="1723648664742" duration="1333000" />
+      <workItem from="1723650023583" duration="8199000" />
+    </task>
+    <task id="LOCAL-00001" summary="Collection init.">
+      <option name="closed" value="true" />
+      <created>1723643337760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723643337760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Collection api → represents a set of objects and methods that allows us to search, manipulate and store data.&#10;&#10;- Iterable is parents interface of a Collection class.&#10;- Mean Collection extends to Iterable class.">
+      <option name="closed" value="true" />
+      <created>1723650888814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723650888814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Collection init." />
+    <MESSAGE value="Collection api → represents a set of objects and methods that allows us to search, manipulate and store data.&#10;&#10;- Iterable is parents interface of a Collection class.&#10;- Mean Collection extends to Iterable class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection api → represents a set of objects and methods that allows us to search, manipulate and store data.&#10;&#10;- Iterable is parents interface of a Collection class.&#10;- Mean Collection extends to Iterable class." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
