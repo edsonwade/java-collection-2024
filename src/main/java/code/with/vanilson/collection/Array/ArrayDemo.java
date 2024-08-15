@@ -1,4 +1,4 @@
-package code.with.vanilson.collection.lists.Array;
+package code.with.vanilson.collection.Array;
 
 import java.util.Arrays;
 
