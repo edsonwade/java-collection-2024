@@ -76,6 +76,7 @@ enum E {
 /**
  * Set is a collection implementation that allows multiple objects to be set at once and returns a single object
  * Does not allow duplicate entries in the collection
+ * The performance gets worst when the size grows significantly
  * that contains the set of objects that should be returned in the returned collection object.
  * <p>
  * HashSet does not maintain any order and does not allow duplicate elements.

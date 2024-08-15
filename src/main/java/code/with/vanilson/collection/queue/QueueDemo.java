@@ -61,5 +61,6 @@ public class QueueDemo {
     /**
      * Queues use principle FIFO (first in, first out) that means the first element to entries is the first to be out.
      * Queues allow duplicate entries elements.
+     *  The performance gets worse when the size grows significantly
      */
 }

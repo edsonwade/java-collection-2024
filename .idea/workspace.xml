@@ -4,18 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eec46443-48db-4d3e-9f33-74c2d9156976" name="Changes" comment="- Set is a collection implementation that allows multiple objects to be&#10;set at once and returns a single object&#10;- Does not allow duplicate entries in the collection&#10;&#10;- List is an interface in Java, and it provides various methods to perform operations like adding, removing, and&#10;  * searching elements.&#10;  * It allows duplicate elements and maintains the insertion order.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/diagrams/Learning_Plan_Java.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/implementation/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/implementation/ListImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/implementation/remove-duplicate-element-on-list.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/code/with/vanilson/collection/lists/implementation/ListImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/lists/implementation/Api.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/lists/implementation/ListImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/code/with/vanilson/collection/lists/implementation/ListImpTest.class" afterDir="false" />
+    <list default="true" id="eec46443-48db-4d3e-9f33-74c2d9156976" name="Changes" comment="Array works with primitive and objects.&#10;&#10;- Declaring array using primitive type int[] numbers = {12, 21, 3, 4, 5};&#10;&#10;&#10;- Declaring an array with object&#10;  String[] instrument = new String[3];&#10;&#10;- sorting the arrays.sort(numbers);&#10;&#10;// Creating a copy of an array&#10;        int[] copiedArray = Arrays.copyOf(anotherNumbers, anotherNumbers.length);">
+      <change afterPath="$PROJECT_DIR$/data/ArrayCheatSheets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Case+Study.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Class+Cheat+Sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/CollectionOverviewCheatSheet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Java_Developer_Learning_Plan.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ListCheatSheets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/QueueCheatSheets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/SetsCheatSheets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/UML+Cheat+Sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/UML-and-OO-Design-Foundations-v1_2-1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/UML-and-OO-Design-Foundations-v1_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Use+Case+Cheat+Sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/Java_Collections_and_Stream_API.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/Map/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/lists/Array/ArrayDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/queue/QueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/queue/QueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/code/with/vanilson/collection/CollectionApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/code/with/vanilson/collection/CollectionApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/queue/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/set/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/set/SetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/CollectApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/CollectionApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/lists/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/lists/implementation/Api.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/lists/implementation/ListImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/queue/QueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/set/E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/set/SetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/code/with/vanilson/collection/CollectionApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/code/with/vanilson/collection/lists/implementation/ListImpTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="docs/list-set-queue-diagrams" />
+        <entry key="$PROJECT_DIR$" value="features/list-implementations" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,47 +67,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Api.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionApi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListImp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.code.with.vanilson.collection.CollectionApi.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.testApp.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CollectionApiTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CollectionApiTest.testAddElement.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CollectionApiTest.testGetCollectionWithNullInput.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ListImpTest.test_removing_duplicates_from_list_with_null_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.java-collection-2024 [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;features/list-implementations&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vamuhong/Documents/Formation 2023/Spring boot/Java and Backend Map/Java-2024/java-collection-2024/src/test/java/code/with/vanilson/collection/CollectionApiTest.java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.18587105&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.41811848&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Api.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.ArrayDemo.executor": "Run",
+    "Application.CollectionApi.executor": "Run",
+    "Application.ListDemo.executor": "Run",
+    "Application.ListImp.executor": "Run",
+    "Application.MapDemo.executor": "Run",
+    "Application.QueueDemo.executor": "Run",
+    "Application.SetDemo.executor": "Run",
+    "Application.code.with.vanilson.collection.CollectionApi.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.AppTest.testApp.executor": "Run",
+    "JUnit.CollectionApiTest.executor": "Run",
+    "JUnit.CollectionApiTest.testAddElement.executor": "Run",
+    "JUnit.CollectionApiTest.testGetCollectionWithNullInput.executor": "Run",
+    "JUnit.ListImpTest.test_removing_duplicates_from_list_with_null_elements.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.java-collection-2024 [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "features/array-static-primitive-and-object-types",
+    "ignore_missing_gitignore": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vamuhong/Documents/Formation 2023/Spring boot/Java and Backend Map/Java-2024/java-collection-2024/src/test/java/code/with/vanilson/collection/CollectionApiTest.java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.18587105",
+    "project.structure.side.proportion": "0.41811848",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024\data" />
+      <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024\src\main\java\code\with\vanilson\collection" />
       <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024\src\main\java\code\with\vanilson\collection\diagrams" />
       <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024\src\main\java\code\with\vanilson\collection\diagrams\collection" />
       <recent name="C:\Users\vamuhong\Documents\Formation 2023\Spring boot\Java and Backend Map\Java-2024\java-collection-2024" />
@@ -102,7 +123,7 @@
       <recent name="code.with.vanilson.collection.lists.implementation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Api">
+  <component name="RunManager" selected="Application.ArrayDemo">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -146,6 +167,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.lists.Array.ArrayDemo" />
+      <module name="java-collection" />
+      <shortenClasspath name="NONE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.with.vanilson.collection.lists.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListImp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.lists.implementation.ListImp" />
       <module name="java-collection" />
@@ -159,25 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.queue.QueueDemo" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.Map.MapDemo" />
       <module name="java-collection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.with.vanilson.collection.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.with.vanilson.collection.set.SetDemo" />
-      <module name="java-collection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.with.vanilson.collection.set.*" />
+          <option name="PATTERN" value="code.with.vanilson.collection.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDemo" />
+        <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.Api" />
         <item itemvalue="JUnit.ListImpTest.test_removing_duplicates_from_list_with_null_elements" />
         <item itemvalue="Application.ListImp" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.SetDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +251,7 @@
       <updated>1723640634449</updated>
       <workItem from="1723640635921" duration="6991000" />
       <workItem from="1723648664742" duration="1333000" />
-      <workItem from="1723650023583" duration="19339000" />
+      <workItem from="1723650023583" duration="26275000" />
     </task>
     <task id="LOCAL-00001" summary="Collection init.">
       <option name="closed" value="true" />
@@ -255,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723658566385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="done lists">
+      <option name="closed" value="true" />
+      <created>1723741886651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723741886651</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +296,9 @@
     <MESSAGE value="Collection init." />
     <MESSAGE value="Collection api → represents a set of objects and methods that allows us to search, manipulate and store data.&#10;&#10;- Iterable is parents interface of a Collection class.&#10;- Mean Collection extends to Iterable class." />
     <MESSAGE value="- Set is a collection implementation that allows multiple objects to be&#10;set at once and returns a single object&#10;- Does not allow duplicate entries in the collection&#10;&#10;- List is an interface in Java, and it provides various methods to perform operations like adding, removing, and&#10;  * searching elements.&#10;  * It allows duplicate elements and maintains the insertion order." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Set is a collection implementation that allows multiple objects to be&#10;set at once and returns a single object&#10;- Does not allow duplicate entries in the collection&#10;&#10;- List is an interface in Java, and it provides various methods to perform operations like adding, removing, and&#10;  * searching elements.&#10;  * It allows duplicate elements and maintains the insertion order." />
+    <MESSAGE value="done lists" />
+    <MESSAGE value="Array works with primitive and objects.&#10;&#10;- Declaring array using primitive type int[] numbers = {12, 21, 3, 4, 5};&#10;&#10;&#10;- Declaring an array with object&#10;  String[] instrument = new String[3];&#10;&#10;- sorting the arrays.sort(numbers);&#10;&#10;// Creating a copy of an array&#10;        int[] copiedArray = Arrays.copyOf(anotherNumbers, anotherNumbers.length);" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array works with primitive and objects.&#10;&#10;- Declaring array using primitive type int[] numbers = {12, 21, 3, 4, 5};&#10;&#10;&#10;- Declaring an array with object&#10;  String[] instrument = new String[3];&#10;&#10;- sorting the arrays.sort(numbers);&#10;&#10;// Creating a copy of an array&#10;        int[] copiedArray = Arrays.copyOf(anotherNumbers, anotherNumbers.length);" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
