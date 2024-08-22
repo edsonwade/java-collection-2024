@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eec46443-48db-4d3e-9f33-74c2d9156976" name="Changes" comment="List are index-based duplicated allowed&#10;&#10;- ArrayList-&gt; List-&gt; Collection&#10;&#10;&#10;-LinkedList also implements Queue&#10;&#10;- Collections provide static helper methods like sort&#10;&#10;- Comparable and Comparator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/set/SetMain.java" afterDir="false" />
+    <list default="true" id="eec46443-48db-4d3e-9f33-74c2d9156976" name="Changes" comment="Sets are unique duplicated not allowed and implement Collection&#10;&#10;- HashSet is unordered&#10;- TreeSet is ordered&#10;&#10;- Map are key value pairs and don't implement Collection&#10;&#10;- HashMap is unordered, TreeMap keys are ordered">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/Map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/with/vanilson/collection/Map/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/Map/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/code/with/vanilson/collection/Map/MapDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
     &quot;git-widget-placeholder&quot;: &quot;features/set-collection&quot;,
     &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vamuhong/Documents/Formation 2023/Spring boot/Java and Backend Map/Java-2024/java-collection-2024/src/test/java/code/with/vanilson/collection/CollectionApiTest.java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vamuhong/Documents/Formation 2023/backend/library-management-system&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -225,7 +223,9 @@
       <updated>1723640634449</updated>
       <workItem from="1723640635921" duration="6991000" />
       <workItem from="1723648664742" duration="1333000" />
-      <workItem from="1723650023583" duration="32943000" />
+      <workItem from="1723650023583" duration="34925000" />
+      <workItem from="1723823165302" duration="36000" />
+      <workItem from="1724054515578" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="Collection init.">
       <option name="closed" value="true" />
@@ -283,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723753800789</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Sets are unique duplicated not allowed and implement Collection&#10;&#10;- HashSet is unordered&#10;- TreeSet is ordered&#10;&#10;- Map are key value pairs and don't implement Collection&#10;&#10;- HashMap is unordered, TreeMap keys are ordered">
+      <option name="closed" value="true" />
+      <created>1723756909017</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723756909017</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +305,8 @@
     <MESSAGE value="done lists" />
     <MESSAGE value="Array works with primitive and objects.&#10;&#10;- Declaring array using primitive type int[] numbers = {12, 21, 3, 4, 5};&#10;&#10;&#10;- Declaring an array with object&#10;  String[] instrument = new String[3];&#10;&#10;- sorting the arrays.sort(numbers);&#10;&#10;// Creating a copy of an array&#10;        int[] copiedArray = Arrays.copyOf(anotherNumbers, anotherNumbers.length);" />
     <MESSAGE value="List are index-based duplicated allowed&#10;&#10;- ArrayList-&gt; List-&gt; Collection&#10;&#10;&#10;-LinkedList also implements Queue&#10;&#10;- Collections provide static helper methods like sort&#10;&#10;- Comparable and Comparator" />
-    <option name="LAST_COMMIT_MESSAGE" value="List are index-based duplicated allowed&#10;&#10;- ArrayList-&gt; List-&gt; Collection&#10;&#10;&#10;-LinkedList also implements Queue&#10;&#10;- Collections provide static helper methods like sort&#10;&#10;- Comparable and Comparator" />
+    <MESSAGE value="Sets are unique duplicated not allowed and implement Collection&#10;&#10;- HashSet is unordered&#10;- TreeSet is ordered&#10;&#10;- Map are key value pairs and don't implement Collection&#10;&#10;- HashMap is unordered, TreeMap keys are ordered" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sets are unique duplicated not allowed and implement Collection&#10;&#10;- HashSet is unordered&#10;- TreeSet is ordered&#10;&#10;- Map are key value pairs and don't implement Collection&#10;&#10;- HashMap is unordered, TreeMap keys are ordered" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
